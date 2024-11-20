@@ -1,8 +1,15 @@
+import { Toaster } from "react-hot-toast";
+import { Home } from "./pages";
+
 function App() {
   return (
-    <h1 className="h-screen flex items-center justify-center text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <main className="bg-custom-gradient h-screen flex items-center justify-center text-white text-center">
+        <Home />
+      </main>
+
+      <Toaster position="top-right" />
+    </>
   );
 }
 
