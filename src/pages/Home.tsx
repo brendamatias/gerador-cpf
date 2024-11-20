@@ -1,12 +1,12 @@
 import { FormEvent, useState } from "react";
 
-import { Button } from "@/components";
+import { Button } from "../components";
 import {
   generateRandomCpf,
   formatWithPunctuation,
   copyToClipboard,
-} from "@/utils";
-import RefreshIcon from "@/assets/refresh-icon.svg?react";
+} from "../utils";
+// import RefreshIcon from "../assets/refresh-icon.svg?react";
 
 const Home = () => {
   const [cpf, setCpf] = useState("");
@@ -64,7 +64,7 @@ const Home = () => {
 
       <div className="flex items-center justify-center gap-5">
         <Button type="submit">
-          <RefreshIcon />
+          {/* <RefreshIcon /> */}
           Gerar CPF
         </Button>
         <Button
