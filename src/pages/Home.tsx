@@ -10,7 +10,7 @@ import {
 
 export const Home = () => {
   const [cpfRaw, setCpfRaw] = useState("");
-  const [punctuation, setPunctuation] = useState(false);
+  const [punctuation, setPunctuation] = useState(true);
   const [copied, setCopied] = useState(false);
 
   const generateCpf = () => {
@@ -77,7 +77,7 @@ export const Home = () => {
         className="mb-14 bg-[#18181B] rounded px-4 py-3 text-center h-[50px] w-[158px] text-sm font-normal"
         type="text"
         value={cpfDisplay}
-        placeholder="000.000.000-00"
+        placeholder={punctuation ? "000.000.000-00" : "00000000000"}
         readOnly
       />
 
