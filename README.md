@@ -1,6 +1,6 @@
 # 📌 Nome do Projeto
 
-Um app de tarefas simples para organizar o dia a dia, feito com React e TypeScript.
+Aplicação simples e rápida para gerar números de CPF válidos, com ou sem pontuação.
 
 ---
 
@@ -25,7 +25,7 @@ Um app de tarefas simples para organizar o dia a dia, feito com React e TypeScri
 
 ## 📸 Demonstração
 
-![Descrição da imagem](./caminho/para/imagem.png)
+![Prévia do projeto](./.github/preview.png)
 
 ---
 
@@ -33,10 +33,10 @@ Um app de tarefas simples para organizar o dia a dia, feito com React e TypeScri
 
 ```bash
 # Clone o repositório
-git clone https://github.com/brendamatias/seu-projeto.git
+git clone https://github.com/brendamatias/gerador-cpf.git
 
 # Acesse a pasta do projeto
-cd seu-projeto
+cd gerador-cpf
 
 # Instale as dependências
 npm install
@@ -65,5 +65,5 @@ Este projeto está sob a licença [MIT](./LICENSE).
 
 ## ✨ Autor
 
-Feito com 💜 por [Brenda Matias](https://github.com/brendamatias)  
+Feito com 💜 por [Brenda Matias](https://github.com/brendamatias)
 [🔗 LinkedIn](https://www.linkedin.com/in/brendamatias/)
